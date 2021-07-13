@@ -36,3 +36,7 @@ print(last_name * 10)
 a = int("111")
 b = float("1111")
 print(type(b))
+
+# 关键字
+import keyword
+print(keyword.kwlist)

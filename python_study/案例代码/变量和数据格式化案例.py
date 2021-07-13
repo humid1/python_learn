@@ -12,3 +12,5 @@ price = float(input("请输入苹果的价格："))
 weight = float(input("请输入苹果的总量："))
 # 格式化输出
 print("苹果单价 %.02f 元／斤，购买 %.02f 斤，需要支付 %.02f 元" % (price, weight, weight * price))
+# 第二种输出方式
+print("苹果单价 {0:.2f} 元／斤, 购买 {1:.2f} 斤，需要支付 {2:.2f} 元".format(price, weight, weight * price))
