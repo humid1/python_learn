@@ -44,7 +44,12 @@ print("arr1: {arr1:d}; arr2: {arr2:d}".format(**table))
 
 # 旧式字符串格式化
 print('常量 π 的近似值是: %5.3f' % math.pi)
-
+name = '小明'
+student_no = 9
+print("我的名字叫：%s" % name)
+print("我的学号是：%06d" % student_no)
+print("小数：%.2f" % 2)
+print("百分比：%.2f %%" % 20.1)
 
 
 
