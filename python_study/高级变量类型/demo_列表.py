@@ -11,6 +11,9 @@ name_list[0] = "张三"
 
 # =====增加 =====
 name_list.append("王二") # 在列表末尾追加
+name_list.append([1, 2, 3]) # 将这个列表当成一个元素追加
+print(name_list)
+
 name_list.insert(3, "cs") # 在指定索引后追加
 
 temp_list = [1, 2, 3, 4]
