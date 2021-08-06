@@ -38,7 +38,7 @@ def new_card():
     dict_list.append(card_dict)
     print(dict_list)
 
-    print("成功添加 %s 的名片" % card_dict["name"])
+    print("成功添加 %s 的名片" % name)
 
 
 
@@ -80,7 +80,10 @@ def search_card():
 
 
 def deal_card(find_dict):
-    """操作搜索到的名片字典"""
+    """操作搜索到的名片字典
+    
+    :param find_dict:找到的名片字典
+    """
     print(find_dict)
 
     action_str = input("请选择要执行的操作: [1] 修改 [2] 删除 [0] 返回上一级")
@@ -92,6 +95,10 @@ def deal_card(find_dict):
             
 
 def update_card(find_dict):
+    """ 更新某个字典名片信息
+
+    :param find_dict:找到的名片字典
+    """
     action_str = input("请选择要修改的操作: [1] 姓名 [2] 电话 [3] QQ [4] 邮箱 [0] 返回上一级")
     if action_str == "1":
         find_dict["name"] = input("请输入姓名:")
