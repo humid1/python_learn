@@ -81,7 +81,7 @@ def search_card():
 
 def deal_card(find_dict):
     """操作搜索到的名片字典
-    
+
     :param find_dict:找到的名片字典
     """
     print(find_dict)
