@@ -4,6 +4,9 @@ gl_num_list = [1, 4, 2]
 gl_num_list.sort()
 print(gl_num_list)
 
+gl_num_list.sort(reverse = False)
+print(gl_num_list)
+
 # 降序排序
 gl_num_list.sort(reverse = True)
 print(gl_num_list)
